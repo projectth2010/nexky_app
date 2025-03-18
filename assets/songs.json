@@ -1,0 +1,43 @@
+[
+   {
+    "name": "Chill", 
+    "files": [ 
+      "Breathe Easy.mp3", 
+      "Gentle Waves.mp3", 
+      "Slow Down.mp3", 
+      "Sunset Drift.mp3", 
+      "Twilight Harmony.mp3", 
+      "Waves in My Soul.mp3" 
+    ]
+  }, 
+  {
+    "name": "Focus", 
+    "files": [ 
+      "Echoes of the Forest.mp3", 
+      "Flow State.mp3", 
+      "Flowing Mindstream.mp3", 
+      "Forest Pulse.mp3", 
+      "Stay Steady.mp3"
+    ]
+  }, 
+  {
+    "name": "Sleep", 
+    "files": [ 
+      "Deep Sleep Waves.mp3", 
+      "Dream Cascade.mp3", 
+      "Dreamwaves.mp3", 
+      "Moonlit Waves.mp3", 
+      "Starlit Dreams.mp3" 
+    ]
+  }, 
+  {
+    "name": "Wellness", 
+    "files": [ 
+      "Golden Glow.mp3", 
+      "Healing Earth.mp3", 
+      "Serenity Sparks.mp3", 
+      "Tranquil Springs.mp3", 
+      "Wellness Groove.mp3" 
+    ]
+  } 
+] 
