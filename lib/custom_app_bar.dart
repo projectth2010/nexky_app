@@ -10,9 +10,13 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: Colors.pink,
+      backgroundColor: Colors.white,
       leading: IconButton(
-        icon: Icon(Icons.handyman),
+        icon: Image.asset(
+                  'assets/ic_stick_bow.png', 
+                  width: 34, // Adjust size as needed
+                  height: 34,
+                ),
         onPressed: onHandymanPressed,
       ),
       actions: [
@@ -38,8 +42,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                 onTap: onMusicNotePressed, // Handle tap event
                 child: Image.asset(
                   'assets/ic_melody.png', 
-                  width: 24, // Adjust size as needed
-                  height: 24,
+                  width: 34, // Adjust size as needed
+                  height: 34,
                 ),
               ),
             ],
