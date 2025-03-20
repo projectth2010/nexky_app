@@ -25,13 +25,13 @@ class _BottomNavigationBarComponentState extends State<BottomNavigationBarCompon
     return Container(
       decoration: BoxDecoration(
         color: Colors.pink, // พื้นหลังของ BottomNavigationBar
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black12,
-            blurRadius: 4, // เพิ่มเงาเล็กน้อย
-            spreadRadius: 2,
-          ),
-        ],
+        // boxShadow: [
+        //   BoxShadow(
+        //     color: Colors.black12,
+        //     blurRadius: 4, // เพิ่มเงาเล็กน้อย
+        //     spreadRadius: 2,
+        //   ),
+        // ],
       ),
       child: BottomNavigationBar(
         backgroundColor: Colors.transparent, // ทำให้พื้นหลังโปร่งใส เพื่อให้เห็นสีจาก Container ด้านนอก
@@ -46,8 +46,8 @@ class _BottomNavigationBarComponentState extends State<BottomNavigationBarCompon
               padding: const EdgeInsets.all(8.0), // เพิ่มพื้นที่รอบไอคอน
               child: Image.asset(
                 'assets/ic_calendar.png',
-                width: 50, // ปรับขนาดไอคอนให้ใหญ่ขึ้น
-                height: 50,
+                width: 80, // ปรับขนาดไอคอนให้ใหญ่ขึ้น
+                height: 80,
                 color: _currentIndex == 0 ? Colors.white : Colors.grey, // เปลี่ยนสีเมื่อเลือก
               ),
             ),
@@ -58,8 +58,8 @@ class _BottomNavigationBarComponentState extends State<BottomNavigationBarCompon
               padding: const EdgeInsets.all(8.0),
               child: Image.asset(
                 'assets/ic_home.png',
-                width: 50,
-                height: 50,
+                width: 80,
+                height: 80,
                 color: _currentIndex == 1 ? Colors.white : Colors.grey,
               ),
             ),
@@ -70,8 +70,8 @@ class _BottomNavigationBarComponentState extends State<BottomNavigationBarCompon
               padding: const EdgeInsets.all(8.0),
               child: Image.asset(
                 'assets/ic_moon_star.png',
-                width: 50,
-                height: 50,
+                width: 80,
+                height: 80,
                 color: _currentIndex == 2 ? Colors.white : Colors.grey,
               ),
             ),
