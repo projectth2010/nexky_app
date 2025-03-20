@@ -76,6 +76,14 @@ flutter:
     - assets/ic_cloud_4.png
     - assets/ic_cloud_5.png
     - assets/ic_melody.png
+    - assets/ic_stick_bow.png
+    - assets/ic_bed.png
+    - assets/ic_sit.png
+    - assets/ic_well.png 
+    - assets/ic_wind_relax.png
+    - assets/ic_calendar.png
+    - assets/ic_home.png
+    - assets/ic_moon_star.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
