@@ -26,18 +26,30 @@ class _BottomNavigationBarComponentState extends State<BottomNavigationBarCompon
     return BottomNavigationBar(
       currentIndex: _currentIndex,
       onTap: _onItemTapped,
-      items: const <BottomNavigationBarItem>[
+      items: <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-          icon: Icon(Icons.calendar_today),
-          label: 'Calendar',
+          icon: Image.asset(
+                  'assets/ic_calendar.png', 
+                  width: 44, // Adjust size as needed
+                  height: 44,
+                ),
+          label: '',
         ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.home),
-          label: 'Home',
+         BottomNavigationBarItem(
+          icon: Image.asset(
+                  'assets/ic_home.png', 
+                  width: 44, // Adjust size as needed
+                  height: 44,
+                ),
+          label: '',
         ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.snooze),
-          label: 'Sleep',
+         BottomNavigationBarItem(
+          icon: Image.asset(
+                  'assets/ic_moon_star.png', 
+                  width: 44, // Adjust size as needed
+                  height: 44,
+                ),
+          label: '',
         ),
       ],
     );
