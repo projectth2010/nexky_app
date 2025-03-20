@@ -14,8 +14,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       leading: IconButton(
         icon: Image.asset(
                   'assets/ic_stick_bow.png', 
-                  width: 34, // Adjust size as needed
-                  height: 34,
+                  width: 44, // Adjust size as needed
+                  height: 44,
                 ),
         onPressed: onHandymanPressed,
       ),
@@ -42,8 +42,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                 onTap: onMusicNotePressed, // Handle tap event
                 child: Image.asset(
                   'assets/ic_melody.png', 
-                  width: 34, // Adjust size as needed
-                  height: 34,
+                  width: 44, // Adjust size as needed
+                  height: 44,
                 ),
               ),
             ],
