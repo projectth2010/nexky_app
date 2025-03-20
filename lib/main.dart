@@ -52,7 +52,15 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: CustomAppBar(
         onHandymanPressed: () {},
-        onMusicNotePressed: () {},
+        onMusicNotePressed: () {
+          // เมื่อกด Music Note จะเปิดหน้า MusicListingPage
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => MusicListingPage(),
+            ),
+          );
+        },
       ),
       body: Stack(
         children: [
