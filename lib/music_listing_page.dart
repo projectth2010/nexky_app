@@ -45,9 +45,11 @@ class _MusicListingPageState extends State<MusicListingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
         title: Text('Music Listing'),
       ),
+
       body: Column(
         children: [
           // Categories Section
@@ -73,6 +75,7 @@ class _MusicListingPageState extends State<MusicListingPage> {
                             color: isSelected ? Colors.blue : Colors.black,
                           ),
                         ),
+                        
                         if (isSelected)
                           Container(
                             margin: EdgeInsets.only(top: 4),
